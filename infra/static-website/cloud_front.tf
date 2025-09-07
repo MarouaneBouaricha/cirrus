@@ -4,7 +4,7 @@ locals {
 
 resource "aws_cloudfront_distribution" "static_site_distribution" {
   origin {
-    domain_name = "${aws_s3_bucket.landing_page_bucket.bucket}.s3-website-${var.region}.amazonaws.com" // static site domain name
+    domain_name = "${aws_s3_bucket.static_website_bucket.bucket}.s3-website-${var.region}.amazonaws.com" // static site domain name
     origin_id   = local.s3_origin_id
 
     // The custom_origin_config is for the website endpoint settings configured via the AWS Console.
