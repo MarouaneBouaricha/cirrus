@@ -1,6 +1,9 @@
 # cirrus
 Static website deployment using AWS
 
+### Architecture
+![Architecture](architecture.png)
+
 ### Requirements
 ```shell
 - Terraform CLI >= v1.12
