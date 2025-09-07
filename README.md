@@ -33,3 +33,6 @@ Deploy to AWS
 ```shell
 terraform apply -var-file="custom.tfvars"
 ```
+
+### Upload files
+Upload your static website files to the s3 bucket. then access the website through your custom domain.
