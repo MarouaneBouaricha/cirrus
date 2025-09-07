@@ -1,0 +1,4 @@
+environment = "dev"
+domain = "happybit.qzz.io"
+route53_zone_id = "Z077758829VRRU8J2WI7T"
+region = "us-east-1"
